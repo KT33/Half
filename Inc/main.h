@@ -68,6 +68,12 @@ void Error_Handler(void);
 #define SEN_LF_GPIO_Port GPIOA
 #define Speaker_Pin GPIO_PIN_7
 #define Speaker_GPIO_Port GPIOA
+#define Battery_Pin GPIO_PIN_1
+#define Battery_GPIO_Port GPIOB
+#define CS_L_ENCODER_Pin GPIO_PIN_8
+#define CS_L_ENCODER_GPIO_Port GPIOA
+#define CS_R_ENCODER_Pin GPIO_PIN_9
+#define CS_R_ENCODER_GPIO_Port GPIOA
 #define TIM_MOTER_R_Pin GPIO_PIN_15
 #define TIM_MOTER_R_GPIO_Port GPIOA
 #define TIM_MOTER_L_Pin GPIO_PIN_3
