@@ -58,6 +58,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define SENLED_RF_Pin GPIO_PIN_14
+#define SENLED_RF_GPIO_Port GPIOC
+#define SENLED_R_Pin GPIO_PIN_15
+#define SENLED_R_GPIO_Port GPIOC
 #define SEN_RF_Pin GPIO_PIN_0
 #define SEN_RF_GPIO_Port GPIOA
 #define SEN_R_Pin GPIO_PIN_1
@@ -66,6 +70,10 @@ void Error_Handler(void);
 #define SEN_L_GPIO_Port GPIOA
 #define SEN_LF_Pin GPIO_PIN_3
 #define SEN_LF_GPIO_Port GPIOA
+#define SENLED_L_Pin GPIO_PIN_4
+#define SENLED_L_GPIO_Port GPIOA
+#define SENLED_LF_Pin GPIO_PIN_6
+#define SENLED_LF_GPIO_Port GPIOA
 #define Speaker_Pin GPIO_PIN_7
 #define Speaker_GPIO_Port GPIOA
 #define Battery_Pin GPIO_PIN_1
@@ -74,10 +82,18 @@ void Error_Handler(void);
 #define CS_L_ENCODER_GPIO_Port GPIOA
 #define CS_R_ENCODER_Pin GPIO_PIN_9
 #define CS_R_ENCODER_GPIO_Port GPIOA
+#define SWITCH_Pin GPIO_PIN_11
+#define SWITCH_GPIO_Port GPIOA
+#define FLAG_LED_Pin GPIO_PIN_12
+#define FLAG_LED_GPIO_Port GPIOA
 #define TIM_MOTER_R_Pin GPIO_PIN_15
 #define TIM_MOTER_R_GPIO_Port GPIOA
 #define TIM_MOTER_L_Pin GPIO_PIN_3
 #define TIM_MOTER_L_GPIO_Port GPIOB
+#define MOTER_R_CWCCW_Pin GPIO_PIN_6
+#define MOTER_R_CWCCW_GPIO_Port GPIOB
+#define MOTER_L_CWCCW_Pin GPIO_PIN_7
+#define MOTER_L_CWCCW_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
